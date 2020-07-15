@@ -117,7 +117,17 @@ body{
     bottom:50px;
 }
 /**左侧菜单***/
-.left_menu{float:left;width:300px;background:#32323a;height:100%;position:absolute;top:0;left:0;overflow:auto;border-left:5px solid #f6f6f6;}
+.left_menu{
+    float:left;
+    width:300px;
+    background:#32323a;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:auto;
+    border-left:5px solid #f6f6f6;
+}
 .left_menu ul li {
     width:300px; 
     display:inline;
@@ -136,8 +146,9 @@ body{
 }
 .left_menu ul li a:hover{ 
     color:#fff;
-    border: 2px #333 solid;
-    border-radius: 10px;
+    border-top: 2px #333 solid;
+    border-bottom: 2px #333 solid;
+    /* border-radius: 10px; */
 }
 .left_menu ul li a.selected:hover { 
     color:#fff;
